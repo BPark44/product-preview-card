@@ -1,0 +1,42 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+h1 {
+    font-family: 'Fraunces', serif;
+}
+
+h2 {
+    color: #339966;
+    font-family: 'Fraunces', serif;
+}
+
+h7 {
+    font-family: 'Montserrat', sans-serif;
+    color: lightslategray;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: lightslategray;
+    font-size: 14px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff2e6;
+}
+
+@media screen and (max-width: 767px){   
+    #main-img{      
+        content:url("images/image-product-mobile.jpg");
+    } 
+}
+
+@media (min-width: 992px){      
+    #main-img{        
+        content:url("images/image-product-desktop.jpg");  
+    } 
+}
